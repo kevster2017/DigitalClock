@@ -11,5 +11,13 @@ namespace Digital_Clock
         {
 
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            lblTime.Text = DateTime.Now.ToString("HH:mm");
+            lblSeconds.Text = DateTime.Now.ToString("ss");
+            lblMonth.Text = DateTime.Now.ToString("dd MMM yyyy");
+            lblDay.Text = DateTime.Now.ToString("dddd");
+        }
     }
 }
