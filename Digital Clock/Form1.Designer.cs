@@ -31,7 +31,7 @@
             lblTime = new Label();
             lblSeconds = new Label();
             lblMonth = new Label();
-            label4 = new Label();
+            lblDay = new Label();
             SuspendLayout();
             // 
             // lblTime
@@ -60,18 +60,19 @@
             lblMonth.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
             lblMonth.Location = new Point(188, 437);
             lblMonth.Name = "lblMonth";
-            lblMonth.Size = new Size(226, 65);
+            lblMonth.Size = new Size(427, 65);
             lblMonth.TabIndex = 2;
-            lblMonth.Text = "Dec 2023";
+            lblMonth.Text = "December 25 2023";
             // 
-            // label4
+            // lblDay
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(735, 456);
-            label4.Name = "label4";
-            label4.Size = new Size(38, 15);
-            label4.TabIndex = 3;
-            label4.Text = "label4";
+            lblDay.AutoSize = true;
+            lblDay.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDay.Location = new Point(735, 437);
+            lblDay.Name = "lblDay";
+            lblDay.Size = new Size(201, 65);
+            lblDay.TabIndex = 3;
+            lblDay.Text = "Monday";
             // 
             // DigitalClock
             // 
@@ -79,7 +80,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Green;
             ClientSize = new Size(1278, 662);
-            Controls.Add(label4);
+            Controls.Add(lblDay);
             Controls.Add(lblMonth);
             Controls.Add(lblSeconds);
             Controls.Add(lblTime);
@@ -96,6 +97,6 @@
         private Label lblTime;
         private Label lblSeconds;
         private Label lblMonth;
-        private Label label4;
+        private Label lblDay;
     }
 }
