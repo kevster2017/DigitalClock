@@ -6,5 +6,10 @@ namespace Digital_Clock
         {
             InitializeComponent();
         }
+
+        private void lblTime_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
