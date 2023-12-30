@@ -37,27 +37,30 @@
             // lblTime
             // 
             lblTime.AutoSize = true;
-            lblTime.Location = new Point(250, 179);
+            lblTime.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTime.Location = new Point(147, 145);
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(34, 15);
+            lblTime.Size = new Size(283, 128);
             lblTime.TabIndex = 0;
             lblTime.Text = "22:22";
             // 
             // lblSeconds
             // 
             lblSeconds.AutoSize = true;
-            lblSeconds.Location = new Point(689, 192);
+            lblSeconds.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblSeconds.Location = new Point(422, 224);
             lblSeconds.Name = "lblSeconds";
-            lblSeconds.Size = new Size(19, 15);
+            lblSeconds.Size = new Size(35, 30);
             lblSeconds.TabIndex = 1;
             lblSeconds.Text = "22";
             // 
             // lblMonth
             // 
             lblMonth.AutoSize = true;
-            lblMonth.Location = new Point(250, 447);
+            lblMonth.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            lblMonth.Location = new Point(188, 437);
             lblMonth.Name = "lblMonth";
-            lblMonth.Size = new Size(54, 15);
+            lblMonth.Size = new Size(226, 65);
             lblMonth.TabIndex = 2;
             lblMonth.Text = "Dec 2023";
             // 
